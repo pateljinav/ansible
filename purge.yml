@@ -4,4 +4,4 @@
 
   roles:
     - { role: purge-netdata-agent, become: yes }
-    - { role: purge-netdata-repository, become: yes }
+    - { role: purge-netdata-repository, become: yes 
